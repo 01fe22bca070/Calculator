@@ -26,8 +26,18 @@ public void mul(float a,float b)
 
 public void div(float a,float b)
 {
-    float  f=a*b;
+    float  f=a/b;
     System.out.println("the division of  " +a+ "  and  " +b+ " is " +f);
+}
+public void square(float a)
+{
+    float  s=a*a;
+    System.out.println("the square of  " +a+ "  is " +s);
+}
+public void cube(float a)
+{
+    float  c=a*a*a;
+    System.out.println("the cube of  " +a+ "  is " +c);
 }
 
 
@@ -38,5 +48,7 @@ public void div(float a,float b)
         c1.sub(3, 7);
         c1.mul(3, 7);
         c1.div(4,6);
+        c1.square(5);
+        c1.cube(3);
     }
 }
